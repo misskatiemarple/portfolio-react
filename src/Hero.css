@@ -1,0 +1,14 @@
+.Intro-text h2 h4 {
+  font-size: 28px;
+  color: #07145e;
+}
+
+.Intro-text h1 {
+  color: #07145e;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #f5ee84;
+  border-color: #47430d;
+}
