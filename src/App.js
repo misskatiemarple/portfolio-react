@@ -59,7 +59,12 @@ function App() {
           <small>
             <p>
               This website was coded in React by Katie, and is open-sourced on
-              Github
+              <a
+                href="https://github.com/misskatiemarple/portfolio-react"
+                target="_blanks"
+              >
+                Github
+              </a>
             </p>
           </small>
         </div>

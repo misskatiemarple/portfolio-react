@@ -1,6 +1,10 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Meet() {
+  const element1 = <FontAwesomeIcon icon={faLinkedin} />;
+  const element2 = <FontAwesomeIcon icon={faGithub} />;
   return (
     <div className="Meet-container">
       <p>
@@ -13,7 +17,10 @@ export default function Meet() {
         we'd be a good match.I'm looking forward to chatting to you soon.
       </p>
       <button className="btn btn-primary">Download Resume</button>
-      <div className="socials">//linked in //email //</div>
+      <div className="socials">
+        <FontAwesomeIcon icon={faLinkedin} />
+        <FontAwesomeIcon icon={faGithub} />;
+      </div>
     </div>
   );
 }
