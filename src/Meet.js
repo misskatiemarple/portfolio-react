@@ -11,8 +11,8 @@ export default function Meet() {
       <p>
         Otherwise, check out my resume below and get-in touch if youe feel like
         we'd be a good match.I'm looking forward to chatting to you soon.
-        <button className="btn btn-primary">Download Resume</button>
       </p>
+      <button className="btn btn-primary">Download Resume</button>
       <div className="socials">//linked in //email //</div>
     </div>
   );

@@ -6,6 +6,11 @@
 .Intro-text h1 {
   color: #07145e;
 }
+.katie {
+  border-radius: 80%;
+  max-width: 100%;
+  height: auto;
+}
 
 button {
   border-radius: 10px;
