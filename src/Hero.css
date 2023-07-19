@@ -1,5 +1,6 @@
-.hero-grid {
+.hero-grid-container {
   display: flex;
+  justify-content: center;
 }
 
 .katie-text {
@@ -13,7 +14,7 @@ h4 {
 }
 
 button {
-  border-radius: 10px;
-  background-color: #cf6ea2;
-  border-color: #c06384;
+  background-color: #cf6ea2 !important;
+  border-color: #c06384 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
