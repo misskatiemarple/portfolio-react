@@ -1,19 +1,19 @@
-h1 {
-  font-size: 64px;
-  font-weight: 700;
+.hero-grid {
+  display: flex;
 }
+
+.katie-text {
+  padding: 70px;
+}
+h1,
 h2,
 h4 {
   color: #07145e;
+  font-weight: 700;
 }
 
 button {
   border-radius: 10px;
   background-color: #cf6ea2;
   border-color: #c06384;
-}
-.katie {
-  border-radius: 80%;
-  max-width: 100%;
-  height: auto;
 }
