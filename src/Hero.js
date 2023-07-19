@@ -19,7 +19,11 @@ export default function Hero() {
             <Cursor cursorColor="pink" />
           </h1>
           <h4 className="hero-text">based in Japan</h4>
-          <button className="mt-4 ms-4  contact-button btn btn-primary">
+          <button
+            className="mt-4 ms-4  contact-button btn btn-primary"
+            href="#contact-me"
+            onClick={handleClick}
+          >
             Contact Me{" "}
           </button>
         </div>
@@ -38,3 +42,7 @@ export default function Hero() {
     </div>
   );
 }
+
+const handleClick = () => {
+  window.location.href = "#contactMe";
+};
