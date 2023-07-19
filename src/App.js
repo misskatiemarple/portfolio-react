@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Work from "./Work";
 import Meet from "./Meet";
+
 import "./App.css";
 
 function App() {
@@ -39,12 +40,7 @@ function App() {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">
-                    Get to know me
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link disabled" href="#">
-                    Disabled
+                    About
                   </a>
                 </li>
               </ul>

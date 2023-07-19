@@ -8,8 +8,7 @@ export default function () {
       <p>
         I love working on creative projects! I'm currently building a Rock Paper
         Scissors Game and a website for my side project She Loves Travel. Check
-        back again to see how I got on. For now, check out these part
-        projects...
+        back again to see how I got on. Here are some of my previous projects...
       </p>{" "}
       <div className="container">
         <div className="row mt-5">
