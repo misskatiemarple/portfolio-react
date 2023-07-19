@@ -1,3 +1,8 @@
 .About-container {
   max-width: 500px;
 }
+
+.subtitle-h2 {
+  color: #07145e;
+  opacity: 0.5;
+}

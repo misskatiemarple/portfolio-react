@@ -3,8 +3,8 @@ import "./Work.css";
 
 export default function () {
   return (
-    <div className="Work-container">
-      <h2>Work.</h2>
+    <div className="Work-container mt-5">
+      <h2 className="subtitle-h2">Work.</h2>
       <p>
         I love working on creative projects! I'm currently building a Rock Paper
         Scissors Game and a website for my side project She Loves Travel. Check

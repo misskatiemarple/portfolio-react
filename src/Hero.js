@@ -10,17 +10,17 @@ export default function Hero() {
     deleteSpeed: 80,
   });
   return (
-    <div className="container hero-grid-container">
+    <div>
       <div className="row mb-4">
         <div className="col-7 katie-text">
-          <h2>Hello, I'm Katie, </h2>
-          <h1>
-            I'm a <span style={{ fontWeight: "bold" }}> {text}</span>
+          <h2 className="hero-text">Hello, I'm Katie, </h2>
+          <h1 className="hero-text">
+            I'm a <span> {text}</span>
             <Cursor cursorColor="pink" />
           </h1>
-          <h4>based in Japan</h4>
-          <button className="mt-4 ms-4 btn btn-primary">
-            What is this button for Marple?{" "}
+          <h4 className="hero-text">based in Japan</h4>
+          <button className="mt-4 ms-4  contact-button btn btn-primary">
+            Contact Me{" "}
           </button>
         </div>
 
