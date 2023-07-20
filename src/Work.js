@@ -4,7 +4,9 @@ import "./Work.css";
 export default function () {
   return (
     <div className="Work-container mt-3">
-      <h2 className="subtitle-h2">Work.</h2>
+      <h2 className="subtitle-h2" id="Work">
+        Work.
+      </h2>
       <p>
         I love working on creative projects! I'm currently building a Rock Paper
         Scissors Game and a website for my side project She Loves Travel. Check

@@ -34,12 +34,12 @@ function App() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Projects
+                  <a className="nav-link" href="#Work">
+                    My Work
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#AboutMe">
                     About
                   </a>
                 </li>

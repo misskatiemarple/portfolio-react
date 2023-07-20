@@ -6,7 +6,9 @@ export default function About() {
     <div className="About-container">
       <div className="row">
         <div className="col-6">
-          <h2 className="subtitle-h2">About.</h2>
+          <h2 className="subtitle-h2" id="AboutMe">
+            About.
+          </h2>
           <p>
             {" "}
             I decided to transition into coding because I am passionate about
