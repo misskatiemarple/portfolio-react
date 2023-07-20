@@ -13,7 +13,7 @@ export default function Hero() {
     <div>
       <div className="row mb-4">
         <div className="col-7 katie-text">
-          <h2 className="hero-text">Hello, I'm Katie, </h2>
+          <h2 className="hero-text">I'm Katie, </h2>
           <h1 className="hero-text">
             I'm a <span> {text}</span>
             <Cursor cursorColor="pink" />

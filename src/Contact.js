@@ -15,15 +15,14 @@ export default function Contact() {
           connecting with fellow frontend engineers and collaborating on
           projects. You can always find me at the Coding Meetup in Osaka.
         </p>
+        <p>Email: misskatiemarple@gmail.com</p>
         <p className="text-center">
           Check out my resume below and get-in touch if you feel like we'd be a
           good match. I'm looking forward to chatting to you soon.
         </p>
       </div>
       <div>
-        <button className="download-button btn btn-primary">
-          Download Resume
-        </button>
+        <button className="download-button btn btn-primary">Resume</button>
       </div>
       <div className="socials mt-3 mb-2">
         <span className="linkedin">
