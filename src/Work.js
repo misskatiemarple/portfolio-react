@@ -81,11 +81,15 @@ export default function () {
         </div>
         <div className="row mt-5 mb-5">
           <div className="col-6">
-            <img
-              src="/images/clock-app.png"
-              className="img-fluid rounded"
-              alt="Screenshot of dictionary app"
-            />
+            <iframe
+              width="420"
+              height="315"
+              src="https://www.youtube.com/embed/dsOw0t0OrUQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </div>
           <div className="col-6">
             {" "}
@@ -104,7 +108,7 @@ export default function () {
             </p>
             <button className="btn btn-primary">
               <a
-                href="https://beamish-snickerdoodle-27bed5.netlify.app/"
+                href="https://remote-workers-clock.netlify.app/"
                 target="_blank"
                 className="work-link"
                 rel="noreferrer"

@@ -12,7 +12,7 @@ function App() {
       <div className="container">
         <header className="App-header">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="#" rel="noreferrer">
               Welcome
             </a>
             <button
@@ -29,17 +29,17 @@ function App() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item active">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#" rel="noreferrer">
                     Home <span className="sr-only">(current)</span>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#Work">
+                  <a className="nav-link" href="#Work" rel="noreferrer">
                     My Work
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#AboutMe">
+                  <a className="nav-link" href="#AboutMe" rel="noreferrer">
                     About
                   </a>
                 </li>
@@ -58,6 +58,7 @@ function App() {
               <a
                 href="https://github.com/misskatiemarple/portfolio-react"
                 target="_blanks"
+                rel="noreferrer"
               >
                 Github
               </a>

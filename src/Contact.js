@@ -35,6 +35,7 @@ export default function Contact() {
           <a
             href="https://www.linkedin.com/in/misskatiemarple/"
             target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon
               icon={faLinkedin}
@@ -44,7 +45,11 @@ export default function Contact() {
           </a>
         </span>
         <span className="github">
-          <a href="https://github.com/misskatiemarple" target="_blank">
+          <a
+            href="https://github.com/misskatiemarple"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon
               icon={faGithub}
               className="text-center fa-2x"
