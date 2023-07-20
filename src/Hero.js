@@ -1,5 +1,6 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./Hero.css";
 
 export default function Hero() {

@@ -3,7 +3,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Work from "./Work";
 import Contact from "./Contact";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
@@ -29,8 +29,8 @@ function App() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item active">
-                  <a className="nav-link" href="#" rel="noreferrer">
-                    Home <span className="sr-only">(current)</span>
+                  <a className="nav-link" href="#About" rel="noreferrer">
+                    About <span className="sr-only">(current)</span>
                   </a>
                 </li>
                 <li className="nav-item">
@@ -39,8 +39,8 @@ function App() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#AboutMe" rel="noreferrer">
-                    About
+                  <a className="nav-link" href="#Contact" rel="noreferrer">
+                    Contact
                   </a>
                 </li>
               </ul>

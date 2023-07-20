@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./About.css";
 
 export default function About() {
@@ -6,10 +7,10 @@ export default function About() {
     <div className="About-container">
       <div className="row">
         <div className="col-6">
-          <h2 className="subtitle-h2" id="AboutMe">
+          <h2 className="subtitle-h2" id="About">
             About.
           </h2>
-          <p>
+          <p className="aboutme-text">
             {" "}
             I decided to transition into coding because I am passionate about
             learning new things, technology, and innovation. With my broad range

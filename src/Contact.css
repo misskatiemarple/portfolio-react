@@ -16,3 +16,14 @@
 .github {
   margin: 20px;
 }
+
+@media (max-width: 767px) {
+  .contact-subtitle {
+    text-align: left;
+  }
+
+  .email {
+    font-size: 13px;
+    line-height: 1.2;
+  }
+}
