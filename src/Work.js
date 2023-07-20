@@ -3,7 +3,7 @@ import "./Work.css";
 
 export default function () {
   return (
-    <div className="Work-container mt-5">
+    <div className="Work-container mt-3">
       <h2 className="subtitle-h2">Work.</h2>
       <p>
         I love working on creative projects! I'm currently building a Rock Paper
@@ -15,7 +15,7 @@ export default function () {
           <div className="col-6">
             <img
               src="/images/dictionary-app.png"
-              class="img-fluid rounded"
+              className="img-fluid rounded"
               alt="Screenshot of dictionary app"
             />
           </div>
@@ -36,6 +36,7 @@ export default function () {
               <a
                 href="https://spontaneous-belekoy-808234.netlify.app/"
                 target="_blank"
+                className="work-link"
               >
                 Try it out
               </a>
@@ -60,6 +61,7 @@ export default function () {
               <a
                 href="https://app.netlify.com/sites/bright-tarsier-1cfd34/overview"
                 target="_blank"
+                className="work-link"
               >
                 Try it out
               </a>
@@ -68,7 +70,7 @@ export default function () {
           <div className="col-6">
             <img
               src="/images/weather-app.png"
-              class="img-fluid rounded"
+              className="img-fluid rounded"
               alt="Screenshot of weather and itinerary app"
             />
           </div>
@@ -77,7 +79,7 @@ export default function () {
           <div className="col-6">
             <img
               src="/images/clock-app.png"
-              class="img-fluid rounded"
+              className="img-fluid rounded"
               alt="Screenshot of dictionary app"
             />
           </div>
@@ -100,6 +102,7 @@ export default function () {
               <a
                 href="https://beamish-snickerdoodle-27bed5.netlify.app/"
                 target="_blank"
+                className="work-link"
               >
                 Try it out
               </a>

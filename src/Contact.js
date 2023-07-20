@@ -27,10 +27,17 @@ export default function Contact() {
       </div>
       <div className="socials mt-3 mb-2">
         <span className="linkedin">
-          <FontAwesomeIcon icon={faLinkedin} className="text-center fa-2x" />
+          <a
+            href="https://www.linkedin.com/in/misskatiemarple/"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faLinkedin} className="text-center fa-2x" />
+          </a>
         </span>
         <span className="github">
-          <FontAwesomeIcon icon={faGithub} className="text-center fa-2x" />
+          <a href="https://github.com/misskatiemarple" target="_blank">
+            <FontAwesomeIcon icon={faGithub} className="text-center fa-2x" />
+          </a>
         </span>
       </div>
     </div>
