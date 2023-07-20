@@ -39,6 +39,7 @@ export default function () {
                 href="https://spontaneous-belekoy-808234.netlify.app/"
                 target="_blank"
                 className="work-link"
+                rel="noreferrer"
               >
                 Try it out
               </a>
@@ -64,6 +65,7 @@ export default function () {
                 href="https://bright-tarsier-1cfd34.netlify.app/"
                 target="_blank"
                 className="work-link"
+                rel="noreferrer"
               >
                 Try it out
               </a>
@@ -105,6 +107,7 @@ export default function () {
                 href="https://beamish-snickerdoodle-27bed5.netlify.app/"
                 target="_blank"
                 className="work-link"
+                rel="noreferrer"
               >
                 Try it out
               </a>
