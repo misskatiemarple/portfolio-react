@@ -53,8 +53,8 @@ function App() {
         </header>
         <div className="footer">
           <small>
-            <p>
-              This website was coded in React by Katie, and is open-sourced on
+            <p className="text-center">
+              This website was coded in React by Katie, and is open-sourced on{" "}
               <a
                 href="https://github.com/misskatiemarple/portfolio-react"
                 target="_blanks"

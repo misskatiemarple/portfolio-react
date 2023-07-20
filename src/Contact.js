@@ -30,12 +30,20 @@ export default function Contact() {
             href="https://www.linkedin.com/in/misskatiemarple/"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faLinkedin} className="text-center fa-2x" />
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              className="text-center fa-2x"
+              style={{ color: "black", textDecoration: "none" }}
+            />
           </a>
         </span>
         <span className="github">
           <a href="https://github.com/misskatiemarple" target="_blank">
-            <FontAwesomeIcon icon={faGithub} className="text-center fa-2x" />
+            <FontAwesomeIcon
+              icon={faGithub}
+              className="text-center fa-2x"
+              style={{ color: "black", textDecoration: "none" }}
+            />
           </a>
         </span>
       </div>

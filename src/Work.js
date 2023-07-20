@@ -59,7 +59,7 @@ export default function () {
             </p>
             <button className="btn btn-primary">
               <a
-                href="https://app.netlify.com/sites/bright-tarsier-1cfd34/overview"
+                href="https://bright-tarsier-1cfd34.netlify.app/"
                 target="_blank"
                 className="work-link"
               >
