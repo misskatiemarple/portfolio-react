@@ -1,8 +1,9 @@
-.About-container {
-  max-width: 500px;
-}
-
 .subtitle-h2 {
   color: #07145e;
   opacity: 0.5;
+}
+.quote {
+  font-family: "Indie Flower", cursive;
+  font-size: 42px;
+  text-align: center;
 }

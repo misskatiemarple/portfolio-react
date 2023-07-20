@@ -32,7 +32,14 @@ export default function () {
               <strong>Tools & Languages: </strong>React, HTML, CSS, Javascript,
               and REST API integration.
             </p>
-            <button className="btn btn-primary">Try it out</button>
+            <button className="btn btn-primary">
+              <a
+                href="https://spontaneous-belekoy-808234.netlify.app/"
+                target="_blank"
+              >
+                Try it out
+              </a>
+            </button>
           </div>
         </div>
         <div className="row mt-5 mb-5">
@@ -49,7 +56,14 @@ export default function () {
               <strong>Tools & Languages: </strong>React, HTML, CSS, Javascript,
               REST API integration.
             </p>
-            <button className="btn btn-primary">Try it out</button>{" "}
+            <button className="btn btn-primary">
+              <a
+                href="https://app.netlify.com/sites/bright-tarsier-1cfd34/overview"
+                target="_blank"
+              >
+                Try it out
+              </a>
+            </button>{" "}
           </div>
           <div className="col-6">
             <img
@@ -82,7 +96,14 @@ export default function () {
               <strong>Tools & Languages: </strong>HTML, CSS, Vanilla JavaScript,
               REST API integration
             </p>
-            <button className="btn btn-primary">Try it out</button>{" "}
+            <button className="btn btn-primary">
+              <a
+                href="https://beamish-snickerdoodle-27bed5.netlify.app/"
+                target="_blank"
+              >
+                Try it out
+              </a>
+            </button>{" "}
           </div>
         </div>
       </div>

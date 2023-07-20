@@ -1,13 +1,18 @@
-.contact-container {
-  max-width: 600px;
+.meet-container {
   border: solid 1px;
   border-radius: 10px;
   padding: 10px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .download-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #cf6ea2 !important;
+  border-color: #c06384 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.linkedin {
+  margin: 20px;
+}
+.github {
+  margin: 20px;
 }
