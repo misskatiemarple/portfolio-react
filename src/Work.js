@@ -72,17 +72,21 @@ export default function () {
             </button>{" "}
           </div>
           <div className="col-6">
-            <img
-              src="/images/weather-app.png"
-              className="img-fluid rounded"
-              alt="Screenshot of weather and itinerary app"
-            />
+            <iframe
+              width="500"
+              height="315"
+              src="https://www.youtube.com/embed/Nxgc4VSBguM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
         <div className="row mt-5 mb-5">
           <div className="col-6">
             <iframe
-              width="420"
+              width="500"
               height="315"
               src="https://www.youtube.com/embed/dsOw0t0OrUQ"
               title="YouTube video player"
