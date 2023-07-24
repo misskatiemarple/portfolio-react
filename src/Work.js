@@ -15,14 +15,14 @@ export default function () {
       </p>{" "}
       <div className="container">
         <div className="row mt-5">
-          <div className="col-6">
+          <div className="col-md">
             <img
               src="/images/dictionary-app.png"
               className="img-fluid rounded work-thumbnail"
               alt="Screenshot of dictionary app"
             />
           </div>
-          <div className="col-6">
+          <div className="col-md">
             <h3>Dictionary App</h3>
             <p className="project-details">
               I host monthly meet-up events in Kansai for solo female travelers
@@ -35,20 +35,22 @@ export default function () {
               <strong>Tools & Languages: </strong>React, HTML, CSS, Javascript,
               and REST API integration.
             </p>
-            <button className="btn btn-primary">
-              <a
-                href="https://spontaneous-belekoy-808234.netlify.app/"
-                target="_blank"
-                className="work-link"
-                rel="noreferrer"
-              >
-                Try it out
-              </a>
-            </button>
+            <div className="work-button text-center">
+              <button className="btn btn-primary work-button">
+                <a
+                  href="https://spontaneous-belekoy-808234.netlify.app/"
+                  target="_blank"
+                  className="work-link"
+                  rel="noreferrer"
+                >
+                  Try it out
+                </a>
+              </button>
+            </div>
           </div>
         </div>
         <div className="row mt-5 mb-5">
-          <div className="col-6">
+          <div className="col-md order-0 order-md-1">
             <h3>Weather and Itinerary App</h3>
             <p className="project-details">
               This project was designed for the She Loves Travel Community. It
@@ -61,18 +63,20 @@ export default function () {
               <strong>Tools & Languages: </strong>React, HTML, CSS, Javascript,
               REST API integration.
             </p>
-            <button className="btn btn-primary">
-              <a
-                href="https://bright-tarsier-1cfd34.netlify.app/"
-                target="_blank"
-                className="work-link"
-                rel="noreferrer"
-              >
-                Try it out
-              </a>
-            </button>{" "}
+            <div className="work-button text-center">
+              <button className="btn btn-primary work-button">
+                <a
+                  href="https://bright-tarsier-1cfd34.netlify.app/"
+                  target="_blank"
+                  className="work-link"
+                  rel="noreferrer"
+                >
+                  Try it out
+                </a>
+              </button>{" "}
+            </div>
           </div>
-          <div className="col-6">
+          <div className="col-md order-1 order-md-0">
             <div className="embed-responsive embed-responsive-16by9">
               <iframe
                 className="embed-responsive-item"
@@ -86,7 +90,7 @@ export default function () {
           </div>
         </div>
         <div className="row mt-5 mb-5">
-          <div className="col-6">
+          <div className="col-md">
             <div className="embed-responsive embed-responsive-16by9">
               <iframe
                 className="embed-responsive-item"
@@ -98,7 +102,7 @@ export default function () {
               ></iframe>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-md">
             {" "}
             <h3>Remote Worker Clock App</h3>
             <p className="project-details">
@@ -113,16 +117,18 @@ export default function () {
               <strong>Tools & Languages: </strong>HTML, CSS, Vanilla JavaScript,
               REST API integration
             </p>
-            <button className="btn btn-primary">
-              <a
-                href="https://remote-workers-clock.netlify.app/"
-                target="_blank"
-                className="work-link"
-                rel="noreferrer"
-              >
-                Try it out
-              </a>
-            </button>{" "}
+            <div className="work-button text-center">
+              <button className="btn btn-primary">
+                <a
+                  href="https://remote-workers-clock.netlify.app/"
+                  target="_blank"
+                  className="work-link"
+                  rel="noreferrer"
+                >
+                  Try it out
+                </a>
+              </button>{" "}
+            </div>
           </div>
         </div>
       </div>

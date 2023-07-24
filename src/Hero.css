@@ -19,6 +19,7 @@
 
 @media (max-width: 767px) {
   .hero-photo {
-    display: none;
+    max-width: 200px;
+    margin-top: 15px;
   }
 }
