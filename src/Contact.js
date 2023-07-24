@@ -27,8 +27,15 @@ export default function Contact() {
         </p>
       </div>
       <div>
-        <button className="download-button btn btn-primary mt-3 ">
-          Resume
+        <button className="download-button btn btn-primary mt-3 resume-button">
+          <a
+            href="https://drive.google.com/file/d/129mggbVtmBKaHyXZ8ST3LoEPzFaSohEE/view?usp=sharing"
+            target="_blank"
+            className="resume-link"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
         </button>
       </div>
       <div className="socials mt-4 mb-2">

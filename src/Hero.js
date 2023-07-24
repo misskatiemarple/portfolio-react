@@ -44,5 +44,5 @@ export default function Hero() {
 }
 
 const handleClick = () => {
-  window.location.href = "#contactMe";
+  window.location.href = "#Contact";
 };
