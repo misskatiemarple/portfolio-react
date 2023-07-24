@@ -7,9 +7,3 @@
   font-size: 42px;
   text-align: center;
 }
-
-@media (max-width: 767px) {
-  .quote {
-    display: none;
-  }
-}
