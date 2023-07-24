@@ -15,14 +15,14 @@ export default function () {
       </p>{" "}
       <div className="container">
         <div className="row mt-5">
-          <div className="col-sm">
+          <div className="col-md">
             <img
               src="/images/dictionary-app.png"
               className="img-fluid rounded work-thumbnail"
               alt="Screenshot of dictionary app"
             />
           </div>
-          <div className="col-sm">
+          <div className="col-md">
             <h3>Dictionary App</h3>
             <p className="project-details">
               I host monthly meet-up events in Kansai for solo female travelers
@@ -49,15 +49,15 @@ export default function () {
             </div>
           </div>
         </div>
-        <div className="row mt-5 mb-5">
-          <div className="col-sm order-0 order-sm-1">
+        <div className="row mt-5 mb-5  flex-column-reverse flex-lg-row">
+          <div className="col-md">
             <h3>Weather and Itinerary App</h3>
             <p className="project-details">
               This project was designed for the She Loves Travel Community. It
               combines two REST APIs for the weather and the itinerary. As a
               foreigner living in Japan I receive many emails asking for
               itinerary advice. This weather and itinerary app can help people
-              decide what activites to do while they are in Japan.
+              decide what activities to do while they are in Japan.
             </p>
             <p>
               <strong>Tools & Languages: </strong>React, HTML, CSS, Javascript,
@@ -76,33 +76,27 @@ export default function () {
               </button>{" "}
             </div>
           </div>
-          <div className="col-6 order-1 order-sm-0 ">
-            <div className="embed-responsive embed-responsive-16by9">
-              <iframe
-                className="embed-responsive-item"
-                src="https://www.youtube.com/embed/Nxgc4VSBguM"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-            </div>
+          <div className="col-md order-sm-0">
+            <iframe
+              src="https://www.youtube.com/embed/Nxgc4VSBguM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
         <div className="row mt-5 mb-5">
           <div className="col-6">
-            <div className="embed-responsive embed-responsive-16by9">
-              <iframe
-                className="embed-responsive-item"
-                src="https://www.youtube.com/embed/dsOw0t0OrUQ"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-            </div>
+            <iframe
+              src="https://www.youtube.com/embed/dsOw0t0OrUQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </div>
-          <div className="col-sm">
+          <div className="col-md">
             {" "}
             <h3>Remote Worker Clock App</h3>
             <p className="project-details">
