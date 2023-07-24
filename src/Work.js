@@ -14,7 +14,7 @@ export default function () {
         back again to see how I got on. Here are some of my previous projects...
       </p>{" "}
       <div className="container">
-        <div className="row mt-5">
+        <div className="row mt-5 d-flex">
           <div className="col-md">
             <img
               src="/images/dictionary-app.png"
@@ -23,7 +23,7 @@ export default function () {
             />
           </div>
           <div className="col-md">
-            <h3>Dictionary App</h3>
+            <h3 className="dictionary-app-title">Dictionary App</h3>
             <p className="project-details">
               I host monthly meet-up events in Kansai for solo female travelers
               and local Japanese women to connect. We exchange culture and
@@ -49,7 +49,7 @@ export default function () {
             </div>
           </div>
         </div>
-        <div className="row mt-5 mb-5  flex-column-reverse flex-lg-row">
+        <div className="row mt-5 mb-5  d-flex flex-column-reverse flex-lg-row">
           <div className="col-md">
             <h3>Weather and Itinerary App</h3>
             <p className="project-details">
@@ -79,6 +79,7 @@ export default function () {
           <div className="col-md order-sm-0">
             <iframe
               src="https://www.youtube.com/embed/Nxgc4VSBguM"
+              className="youtube-video"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -86,10 +87,11 @@ export default function () {
             ></iframe>
           </div>
         </div>
-        <div className="row mt-5 mb-5">
+        <div className="row d-flex mt-5 mb-5">
           <div className="col-6">
             <iframe
               src="https://www.youtube.com/embed/dsOw0t0OrUQ"
+              className="youtube-video"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
