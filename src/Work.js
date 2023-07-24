@@ -15,14 +15,14 @@ export default function () {
       </p>{" "}
       <div className="container">
         <div className="row mt-5">
-          <div className="col-md">
+          <div className="col-sm">
             <img
               src="/images/dictionary-app.png"
               className="img-fluid rounded work-thumbnail"
               alt="Screenshot of dictionary app"
             />
           </div>
-          <div className="col-md">
+          <div className="col-sm">
             <h3>Dictionary App</h3>
             <p className="project-details">
               I host monthly meet-up events in Kansai for solo female travelers
@@ -50,7 +50,7 @@ export default function () {
           </div>
         </div>
         <div className="row mt-5 mb-5">
-          <div className="col-md order-0 order-md-1">
+          <div className="col-sm order-0 order-sm-1">
             <h3>Weather and Itinerary App</h3>
             <p className="project-details">
               This project was designed for the She Loves Travel Community. It
@@ -76,7 +76,7 @@ export default function () {
               </button>{" "}
             </div>
           </div>
-          <div className="col-md order-1 order-md-0">
+          <div className="col-6 order-1 order-sm-0 ">
             <div className="embed-responsive embed-responsive-16by9">
               <iframe
                 className="embed-responsive-item"
@@ -90,7 +90,7 @@ export default function () {
           </div>
         </div>
         <div className="row mt-5 mb-5">
-          <div className="col-md">
+          <div className="col-6">
             <div className="embed-responsive embed-responsive-16by9">
               <iframe
                 className="embed-responsive-item"
@@ -102,7 +102,7 @@ export default function () {
               ></iframe>
             </div>
           </div>
-          <div className="col-md">
+          <div className="col-sm">
             {" "}
             <h3>Remote Worker Clock App</h3>
             <p className="project-details">

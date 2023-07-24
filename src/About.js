@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="About-container">
       <div className="row">
-        <div className="col-md">
+        <div className="col-sm">
           <h2 className="subtitle-h2" id="About">
             About.
           </h2>
@@ -18,7 +18,7 @@ export default function About() {
             user-focused development.
           </p>
         </div>
-        <div className="col-md">
+        <div className="col-sm">
           <p className="quote">
             "Hello, I'm your friendly neighborhood Frontend Engineer."
           </p>
