@@ -49,7 +49,7 @@ export default function () {
             </div>
           </div>
         </div>
-        <div className="row mt-5 mb-5  d-flex flex-column-reverse flex-lg-row">
+        <div className="row mt-5 mb-5  d-flex flex-column-reverse flex-md-row">
           <div className="col-md">
             <h3>Weather and Itinerary App</h3>
             <p className="project-details">
@@ -73,10 +73,10 @@ export default function () {
                 >
                   Try it out
                 </a>
-              </button>{" "}
+              </button>
             </div>
           </div>
-          <div className="col-md order-sm-0">
+          <div className="col-md youtube-container">
             <iframe
               src="https://www.youtube.com/embed/Nxgc4VSBguM"
               className="youtube-video"
@@ -88,7 +88,7 @@ export default function () {
           </div>
         </div>
         <div className="row d-flex mt-5 mb-5">
-          <div className="col-6">
+          <div className="col-md youtube-container">
             <iframe
               src="https://www.youtube.com/embed/dsOw0t0OrUQ"
               className="youtube-video"

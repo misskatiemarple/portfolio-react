@@ -8,7 +8,7 @@ export default function Contact() {
   const element1 = <FontAwesomeIcon icon={faLinkedin} />;
   const element2 = <FontAwesomeIcon icon={faGithub} />;
   return (
-    <div className="meet-container mt-5">
+    <div className="meet-container">
       <div className="contact-me-text">
         <h2 className="subtitle-h2 contact-subtitle" id="Contact">
           Contact.
@@ -27,11 +27,11 @@ export default function Contact() {
         </p>
       </div>
       <div>
-        <button className="download-button btn btn-primary mt-4 ">
+        <button className="download-button btn btn-primary mt-3 ">
           Resume
         </button>
       </div>
-      <div className="socials mt-5 mb-2">
+      <div className="socials mt-4 mb-2">
         <span className="linkedin">
           <a
             href="https://www.linkedin.com/in/misskatiemarple/"
