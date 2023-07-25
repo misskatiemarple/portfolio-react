@@ -20,12 +20,14 @@ export default function Hero() {
             <Cursor cursorColor="pink" />
           </h1>
           <h4 className="hero-text">based in Japan</h4>
-          <button
-            className="mt-4 ms-4  contact-button btn btn-primary"
-            onClick={handleClick}
-          >
-            Contact Me{" "}
-          </button>
+          <div>
+            <button
+              className="mt-4 ms-4  contact-button btn btn-primary"
+              onClick={handleClick}
+            >
+              Contact Me{" "}
+            </button>
+          </div>
         </div>
 
         <div className="col-5">
