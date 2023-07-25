@@ -13,12 +13,14 @@ export default function Hero() {
   return (
     <div>
       <div className="row">
-        <div className="col-7 katie-text">
+        <div className="col-md-7 katie-text">
           <h2 className="hero-text">I'm Katie, </h2>
+
           <h1 className="hero-text">
-            I'm a <span> {text}</span>
+            I'm a <span className="typewriter-text"> {text}</span>
             <Cursor cursorColor="pink" />
           </h1>
+
           <h4 className="hero-text">based in Japan</h4>
           <div>
             <button
@@ -30,15 +32,14 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="col-5">
-          <div className="hero-photo">
-            <img
-              src="/images/katie.jpg"
-              style={{ width: "280px" }}
-              alt="Image of Katie Marple"
-              className="katie-image img-fluid rounded-circle mt-3 "
-            />
-          </div>
+        <div className="col-md-5 hero-photo-container">
+          <img
+            src="/images/katie.jpg"
+            className="hero-photo"
+            style={{ width: "280px" }}
+            alt="Image of Katie Marple"
+            className="katie-image img-fluid rounded-circle mt-3 "
+          />
         </div>
       </div>
     </div>

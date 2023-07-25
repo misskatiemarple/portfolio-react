@@ -10,7 +10,12 @@
 .hero-text {
   color: #07145e;
   font-weight: 700;
+  font-size: ;
 }
+.hero-photo {
+  justify-content: center;
+}
+
 .contact-button {
   background-color: #cf6ea2 !important;
   border-color: #c06384 !important;
@@ -18,8 +23,10 @@
 }
 
 @media (max-width: 767px) {
-  .hero-photo {
-    max-width: 200px;
-    margin-top: 15px;
+  .hero-photo-container {
+    display: none;
+  }
+  .hero-text {
+    font-size: 23px;
   }
 }
