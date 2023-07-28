@@ -8,7 +8,7 @@ export default function Contact() {
   const element1 = <FontAwesomeIcon icon={faLinkedin} />;
   const element2 = <FontAwesomeIcon icon={faGithub} />;
   return (
-    <div className="meet-container">
+    <div className="meet-container mt-3">
       <div className="contact-me-text">
         <h2 className="subtitle-h2 contact-subtitle" id="Contact">
           Contact.

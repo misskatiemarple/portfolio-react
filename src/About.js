@@ -5,7 +5,7 @@ import "./About.css";
 export default function About() {
   return (
     <div className="About-container">
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-sm">
           <h2 className="subtitle-h2" id="About">
             About.

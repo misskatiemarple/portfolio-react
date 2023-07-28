@@ -35,10 +35,9 @@ export default function Hero() {
         <div className="col-md-5 hero-photo-container">
           <img
             src="/images/katie.jpg"
-            className="hero-photo"
             style={{ width: "280px" }}
             alt="Image of Katie Marple"
-            className="katie-image img-fluid rounded-circle mt-3 "
+            className="katie-image img-fluid rounded-circle mt-3 hero-photo"
           />
         </div>
       </div>

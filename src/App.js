@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./Hero";
 import About from "./About";
 import Work from "./Work";
+import Skills from "./Skills";
 import Contact from "./Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -36,9 +37,11 @@ function App() {
               </ul>
             </div>
           </nav>
+
           <Hero />
           <About />
           <Work />
+          <Skills />
           <Contact />
         </header>
         <div className="footer">
