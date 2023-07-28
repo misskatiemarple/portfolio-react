@@ -38,7 +38,7 @@ export default function () {
             <div className="work-button text-center">
               <button className="btn btn-primary work-button">
                 <a
-                  href="https://spontaneous-belekoy-808234.netlify.app/"
+                  href="https://language-exchange-dictionary-app.netlify.app/"
                   target="_blank"
                   className="work-link"
                   rel="noreferrer"
