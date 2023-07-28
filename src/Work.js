@@ -66,7 +66,7 @@ export default function () {
             <div className="work-button text-center">
               <button className="btn btn-primary work-button">
                 <a
-                  href="https://bright-tarsier-1cfd34.netlify.app/"
+                  href="https://weather-itinerary-planner.netlify.app/"
                   target="_blank"
                   className="work-link"
                   rel="noreferrer"
