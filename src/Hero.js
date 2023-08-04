@@ -22,9 +22,9 @@ export default function Hero() {
           </h1>
 
           <h4 className="hero-text">based in Japan</h4>
-          <div>
+          <div className="contact-button-container">
             <button
-              className="mt-4 ms-4  contact-button btn btn-primary"
+              className="mt-4 ms-4  btn btn-primary contact-button"
               onClick={handleClick}
             >
               Contact Me{" "}
@@ -32,7 +32,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="col-md-5 hero-photo-container">
+        <div className="col-sm-5 hero-photo-container">
           <img
             src="/images/katie.jpg"
             style={{ width: "280px" }}

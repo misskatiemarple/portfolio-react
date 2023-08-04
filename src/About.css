@@ -10,5 +10,6 @@
 @media (max-width: 768px) {
   .quote {
     font-size: 20px;
+    font-weight: bolder;
   }
 }

@@ -18,7 +18,7 @@ export default function About() {
             user-focused development.
           </p>
         </div>
-        <div className="col-sm">
+        <div className="col-md">
           <p className="quote">
             "Hello, I'm your friendly neighborhood Frontend Engineer."
           </p>

@@ -10,40 +10,39 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <header className="App-header">
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#" rel="noreferrer">
-              Welcome
-            </a>
+      <div className="page-container">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <a className="navbar-brand" href="#" rel="noreferrer">
+            Welcome
+          </a>
 
-            <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav">
-                <li className="nav-item active">
-                  <a className="nav-link" href="#About" rel="noreferrer">
-                    About <span className="sr-only">(current)</span>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#Work" rel="noreferrer">
-                    My Work
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#Contact" rel="noreferrer">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item active">
+                <a className="nav-link" href="#About" rel="noreferrer">
+                  About <span className="sr-only">(current)</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Work" rel="noreferrer">
+                  My Work
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Contact" rel="noreferrer">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-          <Hero />
-          <About />
-          <Work />
-          <Skills />
-          <Contact />
-        </header>
+        <Hero />
+        <About />
+        <Work />
+        <Skills />
+        <Contact />
+
         <div className="footer">
           <small>
             <p className="text-center">

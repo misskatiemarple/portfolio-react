@@ -1,16 +1,7 @@
 .App {
   font-family: "Poppins";
 }
-
-@media (max-width: 767px) {
-  .container {
-    width: 100%;
-    padding: 10px;
-  }
-  .navbar-nav {
-    margin: 0 auto;
-    display: table;
-    table-layout: fixed;
-    float: none;
-  }
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
