@@ -10,33 +10,38 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div className="page-container">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand" href="#" rel="noreferrer">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
             Welcome
           </a>
-
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item active">
-                <a className="nav-link" href="#About" rel="noreferrer">
-                  About <span className="sr-only">(current)</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#Work" rel="noreferrer">
-                  My Work
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#Contact" rel="noreferrer">
-                  Contact
-                </a>
-              </li>
-            </ul>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="About">
+                About
+              </a>
+              <a class="nav-link" href="#Work">
+                Work
+              </a>
+              <a class="nav-link" href="#Contact">
+                Contact
+              </a>
+            </div>
           </div>
-        </nav>
-
+        </div>
+      </nav>
+      <div className="page-container">
         <Hero />
         <About />
         <Work />
