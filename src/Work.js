@@ -129,8 +129,9 @@ export default function () {
         <div className="row d-flex mt-5 mb-5">
           <div className="col-md youtube-container">
             <iframe
-              src="https://www.youtube.com/embed/dsOw0t0OrUQ"
-              className="youtube-video"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/n8mXD9edDa8?si=0ZU14TSIqaudVtGl"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
