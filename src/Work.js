@@ -9,11 +9,50 @@ export default function () {
         Work.
       </h2>
       <p className="work-intro">
-        I love working on creative projects! I'm currently building a Rock Paper
-        Scissors Game and a website for my side project She Loves Travel. Check
-        back again to see how I got on. Here are some of my previous projects...
+        I love working on creative projects! I'm currently a website for my side
+        project She Loves Travel. Check back again to see how I got on. Here are
+        some of my previous projects...
       </p>{" "}
       <div className="container">
+        <div className="row mt-5 mb-5  d-flex flex-column-reverse flex-md-row">
+          <div className="col-md">
+            <h3>Job A Router</h3>
+            <p className="project-details">
+              I wanted to learn React Router so decided to build this project
+              from NetNinja. It utilizes nested routes and layouts, loaders,
+              page breadcrumbs, forms and a navigation component. The job data
+              is built from a local database but could be replaced with an API.
+            </p>
+            <p>
+              <strong>Tools & Languages: </strong>React Router, React, HTML,
+              CSS, Javascript.
+            </p>
+            <div className="work-button text-center">
+              <button className="btn btn-primary work-button">
+                <a
+                  href="https://github.com/misskatiemarple/jobarouter"
+                  target="_blank"
+                  className="work-link"
+                  rel="noreferrer"
+                >
+                  Check out the code
+                </a>
+              </button>
+            </div>
+          </div>
+          <div className="col-md youtube-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/RpUDB7Yhxas?si=KvhP7gyjKp6pnBmm"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
         <div className="row mt-5 d-flex">
           <div className="col-md">
             <img
