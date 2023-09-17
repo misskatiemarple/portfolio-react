@@ -92,11 +92,9 @@ export default function () {
           <div className="col-md">
             <h3>Weather and Itinerary App</h3>
             <p className="project-details">
-              This project was designed for the She Loves Travel Community. It
-              combines two REST APIs for the weather and the itinerary. As a
-              foreigner living in Japan I receive many emails asking for
-              itinerary advice. This weather and itinerary app can help people
-              decide what activities to do while they are in Japan.
+              This project was designed as part of the She Codes training. It
+              pulls data from the Open Weather API. This weather app was fun and
+              interesting to build.
             </p>
             <p>
               <strong>Tools & Languages: </strong>React, HTML, CSS, Javascript,
@@ -117,8 +115,9 @@ export default function () {
           </div>
           <div className="col-md youtube-container">
             <iframe
-              src="https://www.youtube.com/embed/Nxgc4VSBguM"
-              className="youtube-video"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/_R_Taoj9H84?si=f7OPwX6OuK2hBv74"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
