@@ -90,7 +90,7 @@ export default function () {
         </div>
         <div className="row mt-5 mb-5  d-flex flex-column-reverse flex-md-row">
           <div className="col-md">
-            <h3>Weather and Itinerary App</h3>
+            <h3>Weather App</h3>
             <p className="project-details">
               This project was designed as part of the She Codes training. It
               pulls data from the Open Weather API. This weather app was fun and
