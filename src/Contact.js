@@ -16,7 +16,8 @@ export default function Contact() {
         <p>
           Do you want to get to know more about me and my work? I love
           connecting with fellow frontend engineers and collaborating on
-          projects. You can always find me at the Coding Meetup in Osaka.
+          projects. I also hope to meet some of you at the coding meetups on
+          Tokyo.
         </p>
         <p>
           <strong className="email">Email: misskatiemarple@gmail.com</strong>
