@@ -145,8 +145,8 @@ export default function () {
               understand that it can be hard to keep track of work deadlines
               when you're in a different timezone. This app was designed for
               people, like me, who need a reminder of the time in the
-              headquarters office. The automatical clock will automatically
-              shift to a dark background when it is outside of office hours.{" "}
+              headquarters office. The clock will shift to a dark background
+              when it is outside of office hours.{" "}
             </p>
             <p>
               <strong>Tools & Languages: </strong>HTML, CSS, Vanilla JavaScript,
