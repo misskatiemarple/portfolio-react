@@ -33,7 +33,7 @@ export default function About() {
           </p>
         </div>
         <div className="col-md">
-          <p className="quote justify-content-md-evenly ">
+          <p className="quote mt-5 ">
             "Let's create something groundbreaking."
           </p>
         </div>
