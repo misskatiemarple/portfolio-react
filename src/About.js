@@ -19,15 +19,17 @@ export default function About() {
             </p>
             <p>
               Want to know something that we, as humans, all share?{" "}
-              <strong>We have a problem.</strong>
+              <p> We have a problem.</p>
             </p>
             <p>
               It doesn't matter if a person has 1$ or 1M$ in the bank; humans
               have problems. I want to solve our clients' problems.{" "}
             </p>
             <p>
-              My fundamental belief is that we can create an inclusive and
-              efficient world with the things we make.
+              <strong>
+                We can create an inclusive and efficient world with the projects
+                we build.
+              </strong>
             </p>
           </p>
         </div>
