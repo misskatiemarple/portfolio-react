@@ -27,14 +27,15 @@ export default function About() {
             </p>
             <p>
               <strong>
-                We can create an inclusive and efficient world with the projects
-                we build.
+                Our projects can build an inclusive and efficient world.
               </strong>
             </p>
           </p>
         </div>
         <div className="col-md">
-          <p className="quote mt-4">"Let's create something groundbreaking."</p>
+          <p className="quote justify-content-md-evenly ">
+            "Let's create something groundbreaking."
+          </p>
         </div>
       </div>
     </div>
