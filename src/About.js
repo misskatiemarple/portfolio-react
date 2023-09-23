@@ -12,18 +12,18 @@ export default function About() {
           </h2>
           <p className="aboutme-text">
             <p>
-              I have lived in seven countries and traveled to many more. From
-              collaborating with Presidents to sleeping on the streets, my
-              journey includes life in seven countries and many years exploring
-              different countries.{" "}
+              I have lived in Japan for three years. However, my journey to
+              Japan includes life in several countries and many years exploring.
+              From collaborating with Presidents to charities, my journey
+              includes{" "}
             </p>
             <p>
-              Want to know something that we all share?{" "}
-              <strong>You have a problem.</strong>
+              Want to know something that we, as humans, all share?{" "}
+              <strong>We have a problem.</strong>
             </p>
             <p>
-              It doesn't matter if you have one or a million dollars in the
-              bank; humans have problems. I want to solve our clients' problems.{" "}
+              It doesn't matter if a person has 1$ or 1M$ in the bank; humans
+              have problems. I want to solve our clients' problems.{" "}
             </p>
             <p>
               My fundamental belief is that we can create an inclusive and
