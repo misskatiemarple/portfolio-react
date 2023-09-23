@@ -25,11 +25,6 @@ export default function About() {
               It doesn't matter if a person has 1$ or 1M$ in the bank; humans
               have problems. I want to solve our clients' problems.{" "}
             </p>
-            <p>
-              <strong>
-                Our projects can build an inclusive and efficient world.
-              </strong>
-            </p>
           </p>
         </div>
         <div className="col-md">
