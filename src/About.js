@@ -27,15 +27,12 @@ export default function About() {
             </p>
             <p>
               My fundamental belief is that we can create an inclusive and
-              efficient world with the things we make. So, let's create
-              something groundbreaking.
+              efficient world with the things we make.
             </p>
           </p>
         </div>
         <div className="col-md">
-          <p className="quote">
-            "Hello, I'm your friendly neighborhood Frontend Engineer."
-          </p>
+          <p className="quote">"Let's create something groundbreaking."</p>
         </div>
       </div>
     </div>

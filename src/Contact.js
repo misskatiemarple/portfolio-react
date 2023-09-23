@@ -14,17 +14,11 @@ export default function Contact() {
           Contact.
         </h2>
         <p>
-          Do you want to get to know more about me and my work? I love
-          connecting with fellow frontend engineers and collaborating on
-          projects. I also hope to meet some of you at the coding meetups on
-          Tokyo.
+          I hope to meet you at coding meetups in Japan. Contact me for work
+          opportunities and collaborations.
         </p>
         <p>
           <strong className="email">Email: misskatiemarple@gmail.com</strong>
-        </p>
-        <p className="text-center">
-          Check out my resume below and get-in touch if you feel like we'd be a
-          good match. I'm looking forward to chatting to you soon.
         </p>
       </div>
       <div>

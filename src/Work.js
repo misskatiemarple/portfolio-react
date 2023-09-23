@@ -9,19 +9,19 @@ export default function () {
         Work.
       </h2>
       <p className="work-intro">
-        I love working on creative projects! I'm currently a website for my side
-        project She Loves Travel. Check back again to see how I got on. Here are
-        some of my previous projects...
+        I'm currently building a website for my personal side project, She Loves
+        Travel. I'm also learning Flutter and Dart, so check back for the final
+        projects soon. In the meantime, here are some of my previous projects:
       </p>{" "}
       <div className="container">
         <div className="row mt-5 mb-5  d-flex flex-column-reverse flex-md-row">
           <div className="col-md">
             <h3>Job A Router</h3>
             <p className="project-details">
-              I wanted to learn React Router so decided to build this project
-              from NetNinja. It utilizes nested routes and layouts, loaders,
-              page breadcrumbs, forms and a navigation component. The job data
-              is built from a local database but could be replaced with an API.
+              I wanted to learn React Router, so I built this project from
+              NetNinja. It utilizes nested routes, layouts, loaders, page
+              breadcrumbs, forms and a navigation component. The job data is
+              pulled from a local database but could be through an API.
             </p>
             <p>
               <strong>Tools & Languages: </strong>React Router, React, HTML,
@@ -64,11 +64,11 @@ export default function () {
           <div className="col-md">
             <h3 className="dictionary-app-title">Dictionary App</h3>
             <p className="project-details">
-              I host monthly meet-up events in Kansai for solo female travelers
-              and local Japanese women to connect. We exchange culture and
-              languages while enjoying a delicious lunch. I designed this app
-              with those ladies in mind. Their levels of English vary, so I
-              included phonetics of the word, synonyms and visual aids.
+              I host monthly female-only events in Kansai and Tokyo to connect
+              travelers to local women and their culture. I built this app to
+              solve the language barrier problem. The English level of our
+              Japanese members vary, so I included phonetics of the word,
+              synonyms and visual aids.
             </p>
             <p>
               <strong>Tools & Languages: </strong>React, HTML, CSS, Javascript,
@@ -92,9 +92,10 @@ export default function () {
           <div className="col-md">
             <h3>Weather App</h3>
             <p className="project-details">
-              This project was designed as part of the She Codes training. It
-              pulls data from the Open Weather API. This weather app was fun and
-              interesting to build.
+              I designed and built this project as part of the She Codes
+              training. It pulls data from the Open Weather API. I wanted to
+              include a forecast alongside the current day temperature and
+              conditions. This weather app was fun and interesting to build.
             </p>
             <p>
               <strong>Tools & Languages: </strong>React, HTML, CSS, Javascript,
@@ -141,12 +142,10 @@ export default function () {
             {" "}
             <h3>Remote Worker Clock App</h3>
             <p className="project-details">
-              I have worked remotely in different countries for many years. I
-              understand that it can be hard to keep track of work deadlines
-              when you're in a different timezone. This app was designed for
-              people, like me, who need a reminder of the time in the
-              headquarters office. The clock will shift to a dark background
-              when it is outside of office hours.{" "}
+              I worked remotely for many years and had to remember time zones
+              for deadlines and working hours. I wanted to solve this problem
+              with an easy-to-understand clock app. The clock theme will shift
+              to dark mode when the location is outside of office hours.
             </p>
             <p>
               <strong>Tools & Languages: </strong>HTML, CSS, Vanilla JavaScript,
