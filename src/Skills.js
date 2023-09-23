@@ -6,9 +6,9 @@ export default function Skills() {
     <div className="skills-container">
       <h2 className="subtitle-h2 skills-subtitle">Skills.</h2>
       <p>
-        These are the skills that I honed during the SheCodes certification
-        program. My passion for programming continues to grow. I have since
-        learned React Router and I am now focussing on Flutter and Dart.
+        I honed my skills during the SheCodes certification program. My passion
+        for programming continues to grow and I am now focussing on Flutter and
+        Dart.
       </p>
       <img
         src="/images/skills.png"

@@ -13,12 +13,10 @@ export default function Contact() {
         <h2 className="subtitle-h2 contact-subtitle" id="Contact">
           Contact.
         </h2>
+        <p>I hope to meet you at coding meetups in Japan.</p>
+        <p> Email me for work opportunities and collaborations.</p>
         <p>
-          I hope to meet you at coding meetups in Japan. Contact me for work
-          opportunities and collaborations.
-        </p>
-        <p>
-          <strong className="email">Email: misskatiemarple@gmail.com</strong>
+          <strong className="email">misskatiemarple@gmail.com</strong>
         </p>
       </div>
       <div>

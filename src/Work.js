@@ -65,9 +65,9 @@ export default function () {
             <h3 className="dictionary-app-title">Dictionary App</h3>
             <p className="project-details">
               I host monthly female-only events in Kansai and Tokyo to connect
-              travelers to local women and their culture. I built this app to
-              solve the language barrier problem. The English level of our
-              Japanese members vary, so I included phonetics of the word,
+              travelers to local women and the Japanese culture. I built this
+              app to solve the language barrier problem. The English level of
+              our Japanese members vary, so I included phonetics of the word,
               synonyms and visual aids.
             </p>
             <p>
@@ -95,7 +95,7 @@ export default function () {
               I designed and built this project as part of the She Codes
               training. It pulls data from the Open Weather API. I wanted to
               include a forecast alongside the current day temperature and
-              conditions. This weather app was fun and interesting to build.
+              conditions.
             </p>
             <p>
               <strong>Tools & Languages: </strong>React, HTML, CSS, Javascript,
