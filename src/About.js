@@ -34,7 +34,7 @@ export default function About() {
           </p>
         </div>
         <div className="col-md">
-          <p className="quote">"Let's create something groundbreaking."</p>
+          <p className="quote mt-4">"Let's create something groundbreaking."</p>
         </div>
       </div>
     </div>
