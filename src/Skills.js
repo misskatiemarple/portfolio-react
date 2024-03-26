@@ -29,63 +29,76 @@ export default function Skills() {
         <div className="row">
           <div className="col-md-3">
             <a href="#" target="_blank">
-              <img src="#" alt="blah blah certificate"></img> <p>Coming Soon</p>
-            </a>
-            <a href="#" target="_blank">
-              <img src="#" alt="blah blah certificate"></img> <p>Coming Soon</p>
-            </a>
-            <a href="#" target="_blank">
-              <img src="#" alt="blah blah certificate"></img>{" "}
-              <p>Hackathon For Social Good 2023</p>
-            </a>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-md-3">
-            <a href="#" target="_blank">
-              <img src="#" alt="blah blah certificate"></img>{" "}
-              <p>Introduction to iOS Development Certificate</p>
-            </a>
-            <a href="#" target="_blank">
-              <img src="#" alt="blah blah certificate"></img>{" "}
-              <p>Advanced React Development Certificate</p>
-            </a>
-            <a href="#" target="_blank">
-              <img src="#" alt="blah blah certificate"></img>{" "}
-              <p>React Development Certificate</p>
-            </a>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-md-3">
-            <a href="#" target="_blank">
-              <img src="#" alt="blah blah certificate"></img>{" "}
-              <p>Advanced Responsive Development Certificate</p>
-            </a>
-            <a href="#" target="_blank">
-              <img src="#" alt="blah blah certificate"></img>{" "}
-              <p>Responsive Web Development Certificate</p>
-            </a>
-            <a href="#" target="_blank">
               <img src="#" alt="blah blah certificate"></img>
-              <p>Advanced Web Development Certificate </p>
             </a>
+            <p>Introduction to iOS Development Certificate</p>
+
+            <a href="#" target="_blank">
+              <img src="#" alt="blah blah certificate" />
+            </a>
+            <p>Hackathon For Social Good 2023</p>
+
+            <a href="#" target="_blank">
+              <img src="#" alt="blah blah certificate" />
+            </a>
+            <p>Career Development</p>
           </div>
         </div>
         <div className="row">
           <div className="col-md-3">
             <a href="#" target="_blank">
-              <img src="#" alt="blah blah certificate"></img>{" "}
-              <p>Web Development Certificate</p>
+              <img src="#" alt="blah blah certificate" />
             </a>
+            <p>Front-end Developer Certificate</p>
+
             <a href="#" target="_blank">
-              <img src="#" alt="blah blah certificate"></img>{" "}
-              <p>Introduction to Web Development Certificate</p>
+              <img src="#" alt="blah blah certificate" />
             </a>
+            <p>Advanced React Development Certificate</p>
+
             <a href="#" target="_blank">
-              <img src="#" alt="blah blah certificate"></img>
-              <p>Introduction to Coding Certificate </p>
+              <img src="#" alt="blah blah certificate" />
             </a>
+            <p>React Development Certificate</p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-3">
+            <a href="#" target="_blank">
+              <img src="#" alt="blah blah certificate" />{" "}
+            </a>
+            <p>Advanced Responsive Development Certificate</p>
+
+            <a href="#" target="_blank">
+              <img src="#" alt="blah blah certificate" />
+            </a>
+            <p>Responsive Web Development Certificate</p>
+
+            <a href="#" target="_blank">
+              <img src="#" alt="blah blah certificate" />
+            </a>
+            <p>Advanced Web Development Certificate </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-3">
+            <a href="#" target="_blank">
+              <img src="#" alt="blah blah certificate" />
+            </a>
+            <p>Web Development Certificate</p>
+
+            <a href="#" target="_blank">
+              <img src="#" alt="blah blah certificate" />
+            </a>
+            <p>Introduction to Web Development Certificate</p>
+
+            <a href="#" target="_blank">
+              <img
+                src="images/certificates/intro to coding cert.png"
+                alt="blah blah certificate"
+              />
+            </a>
+            <p>Introduction to Coding Certificate </p>
           </div>
         </div>
       </div>
